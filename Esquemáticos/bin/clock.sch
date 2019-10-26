@@ -498,8 +498,6 @@ Wire Wire Line
 	10000 9800 11200 9800
 Connection ~ 10000 9800
 Wire Wire Line
-	11900 8800 14950 8800
-Wire Wire Line
 	14950 8800 14950 5350
 Wire Wire Line
 	4750 6750 4750 6550
@@ -556,4 +554,6 @@ Wire Wire Line
 	6100 9900 6500 9900
 Text HLabel 11200 9800 2    50   Output ~ 0
 CLK
+Wire Wire Line
+	11850 8800 14950 8800
 $EndSCHEMATC

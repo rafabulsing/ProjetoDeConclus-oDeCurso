@@ -1,0 +1,648 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS245 U?
+U 1 1 5D8EBE6D
+P 3500 3600
+F 0 "U?" V 3454 4444 50  0001 L CNN
+F 1 "74LS245" V 3545 4444 50  0000 L CNN
+F 2 "" H 3500 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 3500 3600 50  0001 C CNN
+	1    3500 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 5550 2200 5550
+Text HLabel 2200 5550 0    50   Input ~ 0
+REG_B_OUT
+Text HLabel 2200 2450 0    50   BiDi ~ 0
+BUS_3
+Text HLabel 2200 2350 0    50   BiDi ~ 0
+BUS_2
+Text HLabel 2200 2250 0    50   BiDi ~ 0
+BUS_1
+Text HLabel 2200 2150 0    50   BiDi ~ 0
+BUS_0
+Connection ~ 4400 6150
+Wire Wire Line
+	4400 3600 4400 6150
+Wire Wire Line
+	4300 3600 4400 3600
+Wire Wire Line
+	3900 4100 3900 4200
+Wire Wire Line
+	4000 4100 4000 5550
+Wire Bus Line
+	2200 2850 3000 2850
+Wire Bus Line
+	3000 2850 3000 3100
+Connection ~ 3000 2850
+Wire Bus Line
+	3000 2850 6650 2850
+Wire Bus Line
+	2200 2750 3100 2750
+Wire Bus Line
+	3100 2750 3100 3100
+Wire Bus Line
+	3100 2750 6750 2750
+Connection ~ 3100 2750
+Wire Bus Line
+	2200 2650 3200 2650
+Wire Bus Line
+	3200 2650 3200 3100
+Wire Bus Line
+	3200 2650 6850 2650
+Wire Bus Line
+	6850 2650 6850 3100
+Connection ~ 3200 2650
+Wire Bus Line
+	6950 2550 3300 2550
+Wire Bus Line
+	3300 2550 3300 3100
+Wire Bus Line
+	2200 2550 3300 2550
+Wire Bus Line
+	3300 2550 3300 2600
+Connection ~ 3300 2550
+Wire Bus Line
+	2200 2450 3400 2450
+Wire Bus Line
+	3400 2450 3400 3100
+Wire Bus Line
+	3500 3100 3500 2350
+Wire Bus Line
+	3500 2350 2200 2350
+Wire Bus Line
+	2200 2250 3600 2250
+Wire Bus Line
+	3600 2250 3600 3100
+Wire Bus Line
+	3700 3100 3700 2150
+Wire Bus Line
+	3700 2150 2200 2150
+Wire Bus Line
+	9300 2450 3400 2450
+Connection ~ 3400 2450
+Wire Bus Line
+	3500 2350 9400 2350
+Connection ~ 3500 2350
+Wire Bus Line
+	9500 2250 3600 2250
+Connection ~ 3600 2250
+Wire Bus Line
+	3700 2150 9600 2150
+Connection ~ 3700 2150
+Wire Bus Line
+	6650 2850 6650 3100
+Wire Bus Line
+	6750 2750 6750 3100
+Wire Bus Line
+	6950 2550 6950 3100
+$Comp
+L 74xx:74LS173 U?
+U 1 1 5D9C64A0
+P 6350 3600
+F 0 "U?" V 6304 4544 50  0001 L CNN
+F 1 "74LS173" V 6350 4544 50  0000 L CNN
+F 2 "" H 6350 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 6350 3600 50  0001 C CNN
+	1    6350 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS173 U?
+U 1 1 5D9C7F2C
+P 9000 3600
+F 0 "U?" V 8954 4544 50  0001 L CNN
+F 1 "74LS173" V 9000 4544 50  0000 L CNN
+F 2 "" H 9000 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 9000 3600 50  0001 C CNN
+	1    9000 3600
+	0    1    1    0   
+$EndComp
+Wire Bus Line
+	9300 2450 9300 3100
+Wire Bus Line
+	9400 2350 9400 3100
+Wire Bus Line
+	9500 2250 9500 3100
+Wire Bus Line
+	9600 2150 9600 3100
+Wire Wire Line
+	5750 3100 5750 1400
+Wire Wire Line
+	5750 1400 8400 1400
+Wire Wire Line
+	8400 1400 8400 3100
+Wire Wire Line
+	5750 1400 2200 1400
+Connection ~ 5750 1400
+Wire Wire Line
+	6050 3100 6050 3000
+Wire Wire Line
+	6150 3000 6150 3100
+Wire Wire Line
+	6050 3000 6100 3000
+Wire Wire Line
+	6100 1300 8600 1300
+Wire Wire Line
+	8750 3000 8800 3000
+Wire Wire Line
+	8800 3000 8800 3100
+Connection ~ 6100 3000
+Wire Wire Line
+	6100 3000 6150 3000
+Wire Wire Line
+	8750 3000 8700 3000
+Wire Wire Line
+	8700 3000 8700 3100
+Connection ~ 8750 3000
+Wire Wire Line
+	6100 1300 5950 1300
+Text HLabel 2200 1400 0    50   Input ~ 0
+RESET
+Text HLabel 2200 1200 0    50   Input ~ 0
+REG_B_IN
+Wire Wire Line
+	6350 3100 6350 3000
+Wire Wire Line
+	6450 3000 6450 3100
+Wire Wire Line
+	7750 3000 7750 3600
+Wire Wire Line
+	6350 3000 6450 3000
+Connection ~ 6450 3000
+Wire Wire Line
+	6450 3000 7750 3000
+Wire Wire Line
+	8100 3600 7750 3600
+Wire Wire Line
+	9000 3100 9000 3000
+Wire Wire Line
+	9000 3000 9050 3000
+Wire Wire Line
+	9100 3000 9100 3100
+Wire Wire Line
+	9050 3000 9050 2800
+Wire Wire Line
+	9050 2800 7750 2800
+Wire Wire Line
+	7750 2800 7750 3000
+Connection ~ 9050 3000
+Wire Wire Line
+	9050 3000 9100 3000
+Connection ~ 7750 3000
+Wire Wire Line
+	5950 3100 5950 1300
+Connection ~ 6100 1200
+Connection ~ 5950 1300
+Wire Wire Line
+	5950 1300 2200 1300
+Wire Wire Line
+	2200 1200 6100 1200
+Wire Wire Line
+	6100 1200 6100 1300
+Wire Wire Line
+	8600 1300 8600 3100
+Wire Wire Line
+	6100 1200 8750 1200
+Wire Wire Line
+	8750 1200 8750 3000
+Text HLabel 2200 1300 0    50   Input ~ 0
+CLK
+Text HLabel 2200 2850 0    50   BiDi ~ 0
+BUS_7
+Text HLabel 2200 2750 0    50   BiDi ~ 0
+BUS_6
+Text HLabel 2200 2650 0    50   BiDi ~ 0
+BUS_5
+Text HLabel 2200 2550 0    50   BiDi ~ 0
+BUS_4
+$Comp
+L power:GND #PWR?
+U 1 1 5DA27E49
+P 2200 6150
+F 0 "#PWR?" H 2200 5900 50  0001 C CNN
+F 1 "GND" V 2205 6022 50  0000 R CNN
+F 2 "" H 2200 6150 50  0001 C CNN
+F 3 "" H 2200 6150 50  0001 C CNN
+	1    2200 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 3600 2700 700 
+Wire Wire Line
+	2700 700  7250 700 
+Wire Wire Line
+	7250 700  7250 3600
+Wire Wire Line
+	7250 700  9900 700 
+Wire Wire Line
+	9900 700  9900 3600
+Connection ~ 7250 700 
+Wire Wire Line
+	2700 700  2200 700 
+Connection ~ 2700 700 
+$Comp
+L power:+5V #PWR?
+U 1 1 5DA2E6CE
+P 2200 700
+F 0 "#PWR?" H 2200 550 50  0001 C CNN
+F 1 "+5V" V 2215 828 50  0000 L CNN
+F 2 "" H 2200 700 50  0001 C CNN
+F 3 "" H 2200 700 50  0001 C CNN
+	1    2200 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA34D39
+P 5000 5500
+F 0 "D?" V 5039 5383 50  0001 R CNN
+F 1 "LED" V 4993 5383 50  0001 R CNN
+F 2 "" H 5000 5500 50  0001 C CNN
+F 3 "~" H 5000 5500 50  0001 C CNN
+	1    5000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA364D7
+P 5350 5500
+F 0 "D?" V 5389 5383 50  0001 R CNN
+F 1 "LED" V 5343 5383 50  0001 R CNN
+F 2 "" H 5350 5500 50  0001 C CNN
+F 3 "~" H 5350 5500 50  0001 C CNN
+	1    5350 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA37CA0
+P 5700 5500
+F 0 "D?" V 5739 5383 50  0001 R CNN
+F 1 "LED" V 5693 5383 50  0001 R CNN
+F 2 "" H 5700 5500 50  0001 C CNN
+F 3 "~" H 5700 5500 50  0001 C CNN
+	1    5700 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA3950C
+P 6050 5500
+F 0 "D?" V 6089 5383 50  0001 R CNN
+F 1 "LED" V 6043 5383 50  0001 R CNN
+F 2 "" H 6050 5500 50  0001 C CNN
+F 3 "~" H 6050 5500 50  0001 C CNN
+	1    6050 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA5089D
+P 6400 5500
+F 0 "D?" V 6439 5383 50  0001 R CNN
+F 1 "LED" V 6393 5383 50  0001 R CNN
+F 2 "" H 6400 5500 50  0001 C CNN
+F 3 "~" H 6400 5500 50  0001 C CNN
+	1    6400 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA508A3
+P 6750 5500
+F 0 "D?" V 6789 5383 50  0001 R CNN
+F 1 "LED" V 6743 5383 50  0001 R CNN
+F 2 "" H 6750 5500 50  0001 C CNN
+F 3 "~" H 6750 5500 50  0001 C CNN
+	1    6750 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA508A9
+P 7100 5500
+F 0 "D?" V 7139 5383 50  0001 R CNN
+F 1 "LED" V 7093 5383 50  0001 R CNN
+F 2 "" H 7100 5500 50  0001 C CNN
+F 3 "~" H 7100 5500 50  0001 C CNN
+	1    7100 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA508AF
+P 7450 5500
+F 0 "D?" V 7489 5383 50  0001 R CNN
+F 1 "LED" V 7443 5383 50  0001 R CNN
+F 2 "" H 7450 5500 50  0001 C CNN
+F 3 "~" H 7450 5500 50  0001 C CNN
+	1    7450 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R
+U 1 1 5DA609BF
+P 5000 5900
+F 0 "R" H 5068 5900 50  0001 L CNN
+F 1 "R470" H 5068 5900 50  0000 L CNN
+F 2 "" V 5040 5890 50  0001 C CNN
+F 3 "~" H 5000 5900 50  0001 C CNN
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6150 5000 6150
+Wire Wire Line
+	5000 5650 5000 5750
+Wire Wire Line
+	5000 6050 5000 6150
+Connection ~ 5000 6150
+Wire Wire Line
+	5000 6150 5350 6150
+$Comp
+L Device:R_US R?
+U 1 1 5DAB79F9
+P 5350 5900
+F 0 "R?" H 5418 5900 50  0001 L CNN
+F 1 "R470" H 5418 5900 50  0000 L CNN
+F 2 "" V 5390 5890 50  0001 C CNN
+F 3 "~" H 5350 5900 50  0001 C CNN
+	1    5350 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5650 5350 5750
+Wire Wire Line
+	5350 6050 5350 6150
+$Comp
+L Device:R_US R?
+U 1 1 5DAB9C64
+P 5700 5900
+F 0 "R?" H 5768 5900 50  0001 L CNN
+F 1 "R470" H 5768 5900 50  0000 L CNN
+F 2 "" V 5740 5890 50  0001 C CNN
+F 3 "~" H 5700 5900 50  0001 C CNN
+	1    5700 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5650 5700 5750
+Wire Wire Line
+	5700 6050 5700 6150
+$Comp
+L Device:R_US R?
+U 1 1 5DABC1D4
+P 6050 5900
+F 0 "R?" H 6118 5900 50  0001 L CNN
+F 1 "R470" H 6118 5900 50  0000 L CNN
+F 2 "" V 6090 5890 50  0001 C CNN
+F 3 "~" H 6050 5900 50  0001 C CNN
+	1    6050 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5650 6050 5750
+Wire Wire Line
+	6050 6050 6050 6150
+$Comp
+L Device:R_US R?
+U 1 1 5DABE6B3
+P 6400 5900
+F 0 "R?" H 6468 5900 50  0001 L CNN
+F 1 "R470" H 6468 5900 50  0000 L CNN
+F 2 "" V 6440 5890 50  0001 C CNN
+F 3 "~" H 6400 5900 50  0001 C CNN
+	1    6400 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5650 6400 5750
+Wire Wire Line
+	6400 6050 6400 6150
+$Comp
+L Device:R_US R?
+U 1 1 5DAC0D43
+P 6750 5900
+F 0 "R?" H 6818 5900 50  0001 L CNN
+F 1 "R470" H 6818 5900 50  0000 L CNN
+F 2 "" V 6790 5890 50  0001 C CNN
+F 3 "~" H 6750 5900 50  0001 C CNN
+	1    6750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5650 6750 5750
+Wire Wire Line
+	6750 6050 6750 6150
+$Comp
+L Device:R_US R?
+U 1 1 5DAC353C
+P 7100 5900
+F 0 "R?" H 7168 5900 50  0001 L CNN
+F 1 "R470" H 7168 5900 50  0000 L CNN
+F 2 "" V 7140 5890 50  0001 C CNN
+F 3 "~" H 7100 5900 50  0001 C CNN
+	1    7100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5650 7100 5750
+Wire Wire Line
+	7100 6050 7100 6150
+$Comp
+L Device:R_US R?
+U 1 1 5DAC5E22
+P 7450 5900
+F 0 "R?" H 7518 5900 50  0001 L CNN
+F 1 "R470" H 7518 5900 50  0000 L CNN
+F 2 "" V 7490 5890 50  0001 C CNN
+F 3 "~" H 7450 5900 50  0001 C CNN
+	1    7450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5650 7450 5750
+Wire Wire Line
+	7450 6050 7450 6150
+Wire Wire Line
+	5450 3600 4400 3600
+Connection ~ 4400 3600
+Wire Wire Line
+	3000 4100 3000 4450
+Wire Wire Line
+	3000 4450 5000 4450
+Wire Wire Line
+	6650 4450 6650 4100
+Wire Wire Line
+	6750 4100 6750 4550
+Wire Wire Line
+	6750 4550 5350 4550
+Wire Wire Line
+	3100 4100 3100 4550
+Wire Wire Line
+	3200 4100 3200 4650
+Wire Wire Line
+	3200 4650 5700 4650
+Wire Wire Line
+	6850 4650 6850 4100
+Wire Wire Line
+	6950 4100 6950 4750
+Wire Wire Line
+	6950 4750 6050 4750
+Wire Wire Line
+	3300 4750 3300 4100
+Wire Wire Line
+	3400 4100 3400 4850
+Wire Wire Line
+	3400 4850 6400 4850
+Wire Wire Line
+	9300 4850 9300 4100
+Wire Wire Line
+	9400 4100 9400 4950
+Wire Wire Line
+	9400 4950 6750 4950
+Wire Wire Line
+	3500 4950 3500 4100
+Wire Wire Line
+	9500 4100 9500 5050
+Wire Wire Line
+	9500 5050 7100 5050
+Wire Wire Line
+	3600 5050 3600 4100
+Wire Wire Line
+	3700 4100 3700 5150
+Wire Wire Line
+	3700 5150 7450 5150
+Wire Wire Line
+	9600 5150 9600 4100
+Wire Wire Line
+	5000 5350 5000 4450
+Connection ~ 5000 4450
+Wire Wire Line
+	5000 4450 6650 4450
+Wire Wire Line
+	5350 4550 5350 5350
+Connection ~ 5350 4550
+Wire Wire Line
+	5350 4550 3100 4550
+Wire Wire Line
+	5700 5350 5700 4650
+Connection ~ 5700 4650
+Wire Wire Line
+	5700 4650 6850 4650
+Wire Wire Line
+	6050 5350 6050 4750
+Connection ~ 6050 4750
+Wire Wire Line
+	6050 4750 3300 4750
+Wire Wire Line
+	6400 4850 6400 5350
+Connection ~ 6400 4850
+Wire Wire Line
+	6400 4850 9300 4850
+Wire Wire Line
+	6750 5350 6750 4950
+Connection ~ 6750 4950
+Wire Wire Line
+	6750 4950 3500 4950
+Wire Wire Line
+	7100 5050 7100 5350
+Connection ~ 7100 5050
+Wire Wire Line
+	7100 5050 3600 5050
+Wire Wire Line
+	7450 5350 7450 5150
+Connection ~ 7450 5150
+Wire Wire Line
+	7450 5150 9600 5150
+Wire Wire Line
+	7750 3600 7750 6150
+Connection ~ 7750 3600
+Wire Wire Line
+	2200 5150 3700 5150
+Connection ~ 3700 5150
+Wire Wire Line
+	3600 5050 2200 5050
+Connection ~ 3600 5050
+Wire Wire Line
+	3500 4950 2200 4950
+Connection ~ 3500 4950
+Connection ~ 3400 4850
+Wire Wire Line
+	2200 4850 3400 4850
+Wire Wire Line
+	3300 4750 2200 4750
+Connection ~ 3300 4750
+Wire Wire Line
+	3200 4650 2200 4650
+Connection ~ 3200 4650
+Wire Wire Line
+	3100 4550 2200 4550
+Connection ~ 3100 4550
+Wire Wire Line
+	3000 4450 2200 4450
+Connection ~ 3000 4450
+Text HLabel 2200 5150 0    50   Output ~ 0
+ALU_0
+Text HLabel 2200 5050 0    50   Output ~ 0
+ALU_1
+Text HLabel 2200 4950 0    50   Output ~ 0
+ALU_2
+Text HLabel 2200 4850 0    50   Output ~ 0
+ALU_3
+Text HLabel 2200 4750 0    50   Output ~ 0
+ALU_4
+Text HLabel 2200 4650 0    50   Output ~ 0
+ALU_5
+Text HLabel 2200 4550 0    50   Output ~ 0
+ALU_6
+Text HLabel 2200 4450 0    50   Output ~ 0
+ALU_7
+Wire Wire Line
+	2700 3600 2700 4200
+Wire Wire Line
+	2700 4200 3900 4200
+Connection ~ 2700 3600
+Wire Wire Line
+	2200 6150 4400 6150
+Connection ~ 5350 6150
+Wire Wire Line
+	5350 6150 5700 6150
+Connection ~ 5700 6150
+Wire Wire Line
+	5700 6150 6050 6150
+Connection ~ 6050 6150
+Wire Wire Line
+	6050 6150 6400 6150
+Connection ~ 6100 1300
+Wire Wire Line
+	6100 1300 6100 3000
+Connection ~ 6400 6150
+Wire Wire Line
+	6400 6150 6750 6150
+Connection ~ 6750 6150
+Wire Wire Line
+	6750 6150 7100 6150
+Connection ~ 7100 6150
+Wire Wire Line
+	7100 6150 7450 6150
+Connection ~ 7450 6150
+Wire Wire Line
+	7450 6150 7750 6150
+$EndSCHEMATC
