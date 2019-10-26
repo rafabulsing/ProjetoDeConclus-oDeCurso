@@ -1,0 +1,823 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A3 11693 16535 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L blocks:ClockBlock U?
+U 1 1 5D2F2E77
+P 4150 3200
+F 0 "U?" H 4004 3765 50  0001 C CNN
+F 1 "CLOCK" H 4161 3240 50  0000 C CNN
+F 2 "" H 4150 3250 50  0001 C CNN
+F 3 "" H 4150 3250 50  0001 C CNN
+	1    4150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L blocks:PcBlock U?
+U 1 1 5D2F3119
+P 7300 2950
+F 0 "U?" H 7300 3465 50  0001 C CNN
+F 1 "PC" H 7300 2901 50  0000 C CNN
+F 2 "" H 7300 3000 50  0001 C CNN
+F 3 "" H 7300 3000 50  0001 C CNN
+	1    7300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L blocks:RegABlock U?
+U 1 1 5D2F4867
+P 7300 4200
+F 0 "U?" H 7375 3287 50  0001 C CNN
+F 1 "REGISTRADOR A" H 7296 4180 50  0000 C CNN
+F 2 "" H 7300 4250 50  0001 C CNN
+F 3 "" H 7300 4250 50  0001 C CNN
+	1    7300 4200
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	6550 9500 5700 9500
+Wire Bus Line
+	6550 9400 5750 9400
+Wire Bus Line
+	6550 9300 5800 9300
+Wire Bus Line
+	6550 9200 5850 9200
+Wire Bus Line
+	6550 9100 5900 9100
+Wire Wire Line
+	3850 5450 3850 6300
+Wire Wire Line
+	4050 5450 4050 6300
+Wire Wire Line
+	4250 5450 4250 6300
+Wire Wire Line
+	4450 5450 4450 6300
+$Comp
+L blocks:MemoryBlock U?
+U 1 1 5D304DAE
+P 4150 6800
+F 0 "U?" H 4125 7375 50  0001 C CNN
+F 1 "MEMORIA" H 4125 6732 50  0000 C CNN
+F 2 "" H 4150 6850 50  0001 C CNN
+F 3 "" H 4150 6850 50  0001 C CNN
+	1    4150 6800
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	6500 2750 5900 2750
+Wire Bus Line
+	6500 2900 5850 2900
+Wire Bus Line
+	6500 3050 5800 3050
+Wire Bus Line
+	6500 3200 5750 3200
+Wire Bus Line
+	6500 3850 5900 3850
+Connection ~ 5900 3850
+Wire Bus Line
+	5900 3850 5900 4750
+Wire Bus Line
+	6500 3950 5850 3950
+Connection ~ 5850 3950
+Wire Bus Line
+	5850 3950 5850 4900
+Wire Bus Line
+	6500 4050 5800 4050
+Connection ~ 5800 4050
+Wire Bus Line
+	5800 4050 5800 5050
+Wire Bus Line
+	6500 4150 5750 4150
+Connection ~ 5750 4150
+Wire Bus Line
+	5750 4150 5750 5200
+Wire Bus Line
+	6500 4250 5700 4250
+Wire Bus Line
+	6500 4350 5650 4350
+Wire Bus Line
+	6500 4450 5600 4450
+Wire Bus Line
+	6500 4550 5550 4550
+Wire Bus Line
+	5700 4250 5700 5950
+Wire Bus Line
+	5650 4350 5650 6050
+Wire Bus Line
+	5600 4450 5600 6150
+Wire Bus Line
+	5550 4550 5550 6250
+Wire Bus Line
+	6500 5550 5900 5550
+Connection ~ 5900 5550
+Wire Bus Line
+	5900 5550 5900 6450
+Wire Bus Line
+	6500 5650 5850 5650
+Connection ~ 5850 5650
+Wire Bus Line
+	5850 5650 5850 6550
+Wire Bus Line
+	6500 5750 5800 5750
+Connection ~ 5800 5750
+Wire Bus Line
+	5800 5750 5800 6650
+Wire Bus Line
+	6500 5850 5750 5850
+Connection ~ 5750 5850
+Wire Bus Line
+	5750 5850 5750 6750
+Wire Bus Line
+	6500 5950 5700 5950
+Connection ~ 5700 5950
+Wire Bus Line
+	5700 5950 5700 6850
+Wire Bus Line
+	6500 6050 5650 6050
+Connection ~ 5650 6050
+Wire Bus Line
+	5650 6050 5650 6950
+Wire Bus Line
+	6500 6150 5600 6150
+Connection ~ 5600 6150
+Wire Bus Line
+	5600 6150 5600 7050
+Wire Bus Line
+	6500 6250 5550 6250
+Connection ~ 5550 6250
+Wire Bus Line
+	5550 6250 5550 7150
+Wire Bus Line
+	6500 7400 5900 7400
+Connection ~ 5900 7400
+Wire Bus Line
+	5900 7400 5900 8400
+Wire Bus Line
+	6500 7500 5850 7500
+Connection ~ 5850 7500
+Wire Bus Line
+	5850 7500 5850 8500
+Wire Bus Line
+	6500 7600 5800 7600
+Connection ~ 5800 7600
+Wire Bus Line
+	5800 7600 5800 8600
+Wire Bus Line
+	6500 7700 5750 7700
+Connection ~ 5750 7700
+Wire Bus Line
+	5750 7700 5750 8700
+Wire Bus Line
+	6500 7800 5700 7800
+Connection ~ 5700 7800
+Wire Bus Line
+	5700 7800 5700 8800
+Wire Bus Line
+	6500 7900 5650 7900
+Connection ~ 5650 7900
+Wire Bus Line
+	5650 7900 5650 8900
+Wire Bus Line
+	6500 8000 5600 8000
+Connection ~ 5600 8000
+Wire Bus Line
+	5600 8000 5600 9000
+Wire Bus Line
+	6500 8100 5550 8100
+Connection ~ 5550 8100
+Wire Bus Line
+	5550 8100 5550 9100
+$Comp
+L blocks:IrBlock U?
+U 1 1 5D305B36
+P 4150 8750
+F 0 "U?" H 4150 7687 50  0001 C CNN
+F 1 "IR" H 4150 8947 50  0000 C CNN
+F 2 "" H 4150 8800 50  0001 C CNN
+F 3 "" H 4150 8800 50  0001 C CNN
+	1    4150 8750
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	4950 8400 5900 8400
+Wire Bus Line
+	4950 8500 5850 8500
+Wire Bus Line
+	4950 8600 5800 8600
+Wire Bus Line
+	4950 8700 5750 8700
+Wire Bus Line
+	4950 8800 5700 8800
+Wire Bus Line
+	4950 8900 5650 8900
+Wire Bus Line
+	4950 9000 5600 9000
+Wire Bus Line
+	4950 9100 5550 9100
+Wire Bus Line
+	4950 6450 5900 6450
+Wire Bus Line
+	4950 6550 5850 6550
+Wire Bus Line
+	4950 6650 5800 6650
+Wire Bus Line
+	4950 6750 5750 6750
+Wire Bus Line
+	4950 6850 5700 6850
+Wire Bus Line
+	4950 6950 5650 6950
+Wire Bus Line
+	4950 7050 5600 7050
+Wire Bus Line
+	4950 7150 5550 7150
+Wire Bus Line
+	4950 4750 5900 4750
+Wire Bus Line
+	4950 4900 5850 4900
+Wire Bus Line
+	4950 5050 5800 5050
+Wire Bus Line
+	4950 5200 5750 5200
+$Comp
+L blocks:DisplayBlock U?
+U 1 1 5D300ED8
+P 7350 9450
+F 0 "U?" H 7450 10025 50  0001 C CNN
+F 1 "DISPLAY" H 7371 9461 50  0000 C CNN
+F 2 "" H 7350 9500 50  0001 C CNN
+F 3 "" H 7350 9500 50  0001 C CNN
+	1    7350 9450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 4550
+Wire Bus Line
+	5550 2650 5550 4550
+Connection ~ 5600 4450
+Wire Bus Line
+	5600 2650 5600 4450
+Connection ~ 5650 4350
+Wire Bus Line
+	5650 2650 5650 4350
+Connection ~ 5700 4250
+Wire Bus Line
+	5700 2650 5700 4250
+Wire Bus Line
+	5750 2650 5750 3200
+Wire Bus Line
+	5800 2650 5800 3050
+Wire Bus Line
+	5850 2650 5850 2900
+Wire Bus Line
+	5900 2650 5900 2750
+Wire Wire Line
+	3350 3400 2900 3400
+Wire Wire Line
+	3800 11700 3800 11300
+Wire Wire Line
+	2750 11850 3950 11850
+Wire Wire Line
+	3950 11850 3950 11300
+Wire Wire Line
+	2600 12000 4100 12000
+Wire Wire Line
+	4100 12000 4100 11300
+Wire Wire Line
+	4250 11300 4250 12150
+Wire Wire Line
+	2750 5050 3350 5050
+Wire Wire Line
+	3350 8850 2300 8850
+Wire Wire Line
+	2300 12300 4400 12300
+Wire Wire Line
+	4400 12300 4400 11300
+Wire Wire Line
+	4550 11300 4550 12450
+Wire Wire Line
+	2150 8650 3350 8650
+Wire Wire Line
+	8650 9450 8150 9450
+Wire Wire Line
+	6200 11300 6200 11650
+Wire Wire Line
+	8650 11650 8650 9450
+Wire Wire Line
+	6050 11300 6050 11800
+Wire Wire Line
+	5900 11950 5900 11300
+Wire Wire Line
+	8100 6150 9100 6150
+Wire Wire Line
+	9100 6150 9100 12100
+Wire Wire Line
+	5750 12100 5750 11300
+Wire Wire Line
+	5600 11300 5600 12250
+Wire Wire Line
+	9250 12250 9250 5900
+Wire Wire Line
+	9250 5900 8100 5900
+Wire Wire Line
+	5450 12400 5450 11300
+Wire Wire Line
+	5300 11300 5300 12550
+Wire Wire Line
+	5150 11300 5150 12700
+Wire Wire Line
+	9700 3150 8100 3150
+Wire Wire Line
+	4850 11300 4850 12850
+Wire Wire Line
+	9850 3000 8100 3000
+Wire Wire Line
+	4700 13000 4700 11300
+Wire Wire Line
+	8100 2850 10000 2850
+Wire Wire Line
+	3350 2950 1150 2950
+Wire Wire Line
+	1150 4900 3350 4900
+Wire Wire Line
+	1150 6600 3350 6600
+Wire Wire Line
+	1150 6600 1150 8450
+Wire Wire Line
+	1150 8450 3350 8450
+Connection ~ 1150 6600
+Wire Wire Line
+	1150 10700 3550 10700
+Wire Wire Line
+	1150 1800 10600 1800
+Wire Wire Line
+	10600 1800 10600 2700
+Wire Wire Line
+	10600 2700 8100 2700
+Wire Wire Line
+	10600 3900 8100 3900
+Wire Wire Line
+	10600 3900 10600 5650
+Wire Wire Line
+	10600 5650 8100 5650
+Connection ~ 10600 3900
+Connection ~ 10600 5650
+Wire Wire Line
+	10600 9150 8150 9150
+$Comp
+L blocks:ResetBlock U?
+U 1 1 5DD261A5
+P 7300 10700
+F 0 "U?" H 8018 10746 50  0001 L CNN
+F 1 "RESET" H 7112 10700 50  0000 L CNN
+F 2 "" H 7300 10750 50  0001 C CNN
+F 3 "" H 7300 10750 50  0001 C CNN
+	1    7300 10700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 10550 10750 10550
+Wire Wire Line
+	10750 8050 8100 8050
+Connection ~ 10750 8050
+Wire Wire Line
+	10900 10850 10900 9750
+Wire Wire Line
+	10900 9750 8150 9750
+Wire Wire Line
+	7650 10850 10900 10850
+Wire Wire Line
+	10900 3300 8100 3300
+Connection ~ 10900 9750
+Wire Wire Line
+	10900 13750 950  13750
+Wire Wire Line
+	950  10900 3550 10900
+Wire Wire Line
+	10900 10850 10900 13750
+Connection ~ 10900 10850
+Wire Wire Line
+	10750 13900 750  13900
+$Comp
+L Device:R_Small_US R4K
+U 1 1 5D8FC203
+P 5550 2550
+F 0 "R4K" H 5618 2550 50  0001 L CNN
+F 1 "R_Small_US" H 5618 2505 50  0001 L CNN
+F 2 "" H 5550 2550 50  0001 C CNN
+F 3 "~" H 5550 2550 50  0001 C CNN
+	1    5550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4K?
+U 1 1 5D8FCF11
+P 5600 2550
+F 0 "R4K?" H 5668 2550 50  0001 L CNN
+F 1 "R_Small_US" H 5668 2505 50  0001 L CNN
+F 2 "" H 5600 2550 50  0001 C CNN
+F 3 "~" H 5600 2550 50  0001 C CNN
+	1    5600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4K?
+U 1 1 5D915D8C
+P 5650 2550
+F 0 "R4K?" H 5718 2550 50  0001 L CNN
+F 1 "R_Small_US" H 5718 2505 50  0001 L CNN
+F 2 "" H 5650 2550 50  0001 C CNN
+F 3 "~" H 5650 2550 50  0001 C CNN
+	1    5650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4K?
+U 1 1 5D92EB00
+P 5700 2550
+F 0 "R4K?" H 5768 2550 50  0001 L CNN
+F 1 "R_Small_US" H 5768 2505 50  0001 L CNN
+F 2 "" H 5700 2550 50  0001 C CNN
+F 3 "~" H 5700 2550 50  0001 C CNN
+	1    5700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4K?
+U 1 1 5D947961
+P 5750 2550
+F 0 "R4K?" H 5818 2550 50  0001 L CNN
+F 1 "R_Small_US" H 5818 2505 50  0001 L CNN
+F 2 "" H 5750 2550 50  0001 C CNN
+F 3 "~" H 5750 2550 50  0001 C CNN
+	1    5750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4K?
+U 1 1 5D9607FB
+P 5800 2550
+F 0 "R4K?" H 5868 2550 50  0001 L CNN
+F 1 "R_Small_US" H 5868 2505 50  0001 L CNN
+F 2 "" H 5800 2550 50  0001 C CNN
+F 3 "~" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4K?
+U 1 1 5D979625
+P 5850 2550
+F 0 "R4K?" H 5918 2550 50  0001 L CNN
+F 1 "R_Small_US" H 5918 2505 50  0001 L CNN
+F 2 "" H 5850 2550 50  0001 C CNN
+F 3 "~" H 5850 2550 50  0001 C CNN
+	1    5850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4K?
+U 1 1 5D9924B9
+P 5900 2550
+F 0 "R4K?" H 5968 2550 50  0001 L CNN
+F 1 "R_Small_US" H 5968 2505 50  0001 L CNN
+F 2 "" H 5900 2550 50  0001 C CNN
+F 3 "~" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2450 5850 2450
+Connection ~ 5600 2450
+Wire Wire Line
+	5600 2450 5550 2450
+Connection ~ 5650 2450
+Wire Wire Line
+	5650 2450 5600 2450
+Connection ~ 5700 2450
+Wire Wire Line
+	5700 2450 5650 2450
+Connection ~ 5750 2450
+Wire Wire Line
+	5750 2450 5700 2450
+Connection ~ 5800 2450
+Wire Wire Line
+	5800 2450 5750 2450
+Connection ~ 5850 2450
+Wire Wire Line
+	5850 2450 5800 2450
+Wire Wire Line
+	5750 2450 5750 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5D9DE778
+P 5750 2150
+F 0 "#PWR?" H 5750 1900 50  0001 C CNN
+F 1 "GND" H 5755 1977 50  0000 C CNN
+F 2 "" H 5750 2150 50  0001 C CNN
+F 3 "" H 5750 2150 50  0001 C CNN
+	1    5750 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L blocks:MarBlock U?
+U 1 1 5D3033DB
+P 4150 4950
+F 0 "U?" H 4150 5465 50  0001 C CNN
+F 1 "MAR" H 4150 5128 50  0000 C CNN
+F 2 "" H 4150 5000 50  0001 C CNN
+F 3 "" H 4150 5000 50  0001 C CNN
+	1    4150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L blocks:AluBlock U?
+U 1 1 5D2F5A8A
+P 7300 5900
+F 0 "U?" H 6132 5946 50  0001 R CNN
+F 1 "ULA" H 7510 5900 50  0000 R CNN
+F 2 "" H 7300 5950 50  0001 C CNN
+F 3 "" H 7300 5950 50  0001 C CNN
+	1    7300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L blocks:RegBBlock U?
+U 1 1 5D2FF63F
+P 7300 7750
+F 0 "U?" H 7375 8756 50  0001 C CNN
+F 1 "REGISTRADOR_B" H 7296 7720 50  0000 C CNN
+F 2 "" H 7300 7800 50  0001 C CNN
+F 3 "" H 7300 7800 50  0001 C CNN
+	1    7300 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 6400 7050 7250
+Wire Wire Line
+	7150 6400 7150 7250
+Wire Wire Line
+	7250 7250 7250 6400
+Wire Wire Line
+	7350 6400 7350 7250
+Wire Wire Line
+	7450 7250 7450 6400
+Wire Wire Line
+	7550 6400 7550 7250
+Wire Wire Line
+	7650 7250 7650 6400
+Wire Wire Line
+	7750 6400 7750 7250
+Wire Wire Line
+	7050 4700 7050 5400
+Wire Wire Line
+	7150 4700 7150 5400
+Wire Wire Line
+	7250 4700 7250 5400
+Wire Wire Line
+	7350 4700 7350 5400
+Wire Wire Line
+	7450 4700 7450 5400
+Wire Wire Line
+	7550 4700 7550 5400
+Wire Wire Line
+	7650 4700 7650 5400
+Wire Wire Line
+	7750 4700 7750 5400
+Wire Wire Line
+	9550 4000 8100 4000
+Wire Wire Line
+	9550 4000 9550 12550
+Wire Wire Line
+	9400 4100 8100 4100
+Wire Wire Line
+	9400 4100 9400 12400
+Wire Wire Line
+	10750 4200 8100 4200
+Wire Wire Line
+	10750 4200 10750 8050
+Wire Wire Line
+	8100 7750 10600 7750
+Connection ~ 10600 7750
+Wire Wire Line
+	10600 7750 10600 9150
+Wire Wire Line
+	10600 5650 10600 7750
+Wire Wire Line
+	8800 11800 8800 7850
+Wire Wire Line
+	8800 7850 8100 7850
+Wire Wire Line
+	8100 7950 8950 7950
+Wire Wire Line
+	8950 7950 8950 11950
+Connection ~ 5750 5200
+Connection ~ 5800 5050
+Connection ~ 5850 4900
+Connection ~ 5900 4750
+Wire Bus Line
+	5900 4750 5900 5550
+Wire Bus Line
+	5850 4900 5850 5650
+Wire Bus Line
+	5800 5050 5800 5750
+Wire Bus Line
+	5750 5200 5750 5850
+Connection ~ 10600 2700
+Wire Wire Line
+	10600 2700 10600 3900
+Wire Wire Line
+	9700 3150 9700 12700
+Wire Wire Line
+	9850 3000 9850 12850
+Wire Wire Line
+	10000 2850 10000 13000
+Wire Wire Line
+	10900 3300 10900 9750
+Connection ~ 5750 3200
+Connection ~ 5800 3050
+Connection ~ 5850 2900
+Connection ~ 5900 2750
+Wire Bus Line
+	5900 2750 5900 3850
+Wire Bus Line
+	5850 2900 5850 3950
+Wire Bus Line
+	5800 3050 5800 4050
+Wire Bus Line
+	5750 3200 5750 4150
+Connection ~ 1150 2950
+Wire Wire Line
+	1150 2950 1150 1800
+Wire Bus Line
+	5650 9600 6550 9600
+Wire Bus Line
+	5600 9700 6550 9700
+Wire Bus Line
+	5550 9800 6550 9800
+Connection ~ 5550 9100
+Connection ~ 5600 9000
+Connection ~ 5650 8900
+Connection ~ 5700 8800
+Connection ~ 5750 8700
+Connection ~ 5800 8600
+Connection ~ 5850 8500
+Connection ~ 5900 8400
+Wire Bus Line
+	5700 8800 5700 9500
+Wire Bus Line
+	5750 8700 5750 9400
+Wire Bus Line
+	5800 8600 5800 9300
+Wire Bus Line
+	5850 8500 5850 9200
+Wire Bus Line
+	5900 8400 5900 9100
+Wire Bus Line
+	5600 9000 5600 9700
+Wire Bus Line
+	5650 8900 5650 9600
+Wire Bus Line
+	5550 9100 5550 9800
+Connection ~ 750  9050
+Connection ~ 1150 8450
+Wire Wire Line
+	1150 8450 1150 10700
+Wire Wire Line
+	750  9050 750  13900
+Wire Wire Line
+	2150 8650 2150 12450
+Wire Wire Line
+	2300 8850 2300 12300
+$Comp
+L blocks:ControlBlock U?
+U 1 1 5D99E097
+P 5000 10800
+F 0 "U?" H 3231 10821 50  0001 R CNN
+F 1 "CONTROLE" H 5239 10854 50  0000 R CNN
+F 2 "" H 5000 10900 50  0001 C CNN
+F 3 "" H 5000 10900 50  0001 C CNN
+	1    5000 10800
+	1    0    0    -1  
+$EndComp
+Connection ~ 10750 10550
+Wire Wire Line
+	10750 10550 10750 8050
+Wire Wire Line
+	10750 10550 10750 13900
+Wire Wire Line
+	3850 9250 3850 10100
+Wire Wire Line
+	3850 10100 4000 10100
+Wire Wire Line
+	4050 9250 4050 9900
+Wire Wire Line
+	4050 9900 4200 9900
+Wire Wire Line
+	4200 9900 4200 10300
+Wire Wire Line
+	4250 9250 4250 9700
+Wire Wire Line
+	4250 9700 4400 9700
+Wire Wire Line
+	4400 9700 4400 10300
+Wire Wire Line
+	4450 9250 4450 9450
+Wire Wire Line
+	4600 9450 4600 10300
+Wire Wire Line
+	950  10900 950  13750
+Wire Wire Line
+	4250 12150 2450 12150
+Wire Wire Line
+	4550 12450 2150 12450
+Wire Wire Line
+	4850 12850 9850 12850
+Wire Wire Line
+	4700 13000 10000 13000
+Wire Wire Line
+	6200 11650 8650 11650
+Wire Wire Line
+	6050 11800 8800 11800
+Wire Wire Line
+	5900 11950 8950 11950
+Wire Wire Line
+	5750 12100 9100 12100
+Wire Wire Line
+	5600 12250 9250 12250
+Wire Wire Line
+	5450 12400 9400 12400
+Wire Wire Line
+	5300 12550 9550 12550
+Wire Wire Line
+	5150 12700 9700 12700
+Wire Wire Line
+	4450 9450 4600 9450
+Wire Wire Line
+	4000 10100 4000 10300
+Wire Wire Line
+	750  9050 3350 9050
+Wire Wire Line
+	2450 6750 3350 6750
+Wire Wire Line
+	2450 6750 2450 12150
+Wire Wire Line
+	2600 6900 3350 6900
+Wire Wire Line
+	2600 6900 2600 12000
+Wire Wire Line
+	3350 7050 3250 7050
+Wire Wire Line
+	750  5200 3350 5200
+Wire Wire Line
+	750  5200 750  9050
+Wire Wire Line
+	2750 5050 2750 11850
+Connection ~ 1150 4900
+Wire Wire Line
+	1150 4900 1150 6600
+Wire Wire Line
+	1150 2950 1150 4900
+Wire Wire Line
+	3250 4750 3350 4750
+Wire Wire Line
+	3250 4750 3250 7050
+Wire Wire Line
+	2900 11700 3800 11700
+Wire Wire Line
+	2900 11700 2900 3400
+Connection ~ 5550 7150
+Connection ~ 5600 7050
+Connection ~ 5650 6950
+Connection ~ 5700 6850
+Connection ~ 5750 6750
+Connection ~ 5800 6650
+Connection ~ 5850 6550
+Connection ~ 5900 6450
+Wire Bus Line
+	5900 6450 5900 7400
+Wire Bus Line
+	5850 6550 5850 7500
+Wire Bus Line
+	5800 6650 5800 7600
+Wire Bus Line
+	5750 6750 5750 7700
+Wire Bus Line
+	5700 6850 5700 7800
+Wire Bus Line
+	5650 6950 5650 7900
+Wire Bus Line
+	5600 7050 5600 8000
+Wire Bus Line
+	5550 7150 5550 8100
+$EndSCHEMATC
